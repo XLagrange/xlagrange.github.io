@@ -52,6 +52,9 @@ Information
 Beauty contest game      
 买股票怎么卖在高点?      
 猜数字 - 平均数的 2/3 怎么玩?      
+
+ 在给定其他对手的行为之后 如果每一个player都没有改变的意图 则为纳什平衡   
+ 纳什平衡无关是不是最优解   
    
 ### 1.6 strategic reasoning   
    
@@ -67,9 +70,18 @@ Nash Equilibrium 只要在大家都一样聪明的时候才有意义
    
 strictly dominant      
 very weakly dominant      
+-a strictly dominant strategy is that strategy that always provides greater utility to a the player, no matter what the other player’s strategy is;   
+无论对手的选择是什么 我的这项选择都会比我的其他选择的utility要大   
+
+-a weakly dominant strategy is that strategy that provides at least the same utility for all the other player’s strategies, and strictly greater for some strategy.   
+无论对手的额选择是什么 我的这项选择都会比我的其他选择的utility要大于等于   
 
 如果每个人都有 dominant, 则博弈一定是纳什平衡   
 
 ### 1.10 Pareto Optimality
 
 作为旁观者 可能有更优解   
+
+## Week 2 Mixed-strategy Nash Equilibrium
+
+
